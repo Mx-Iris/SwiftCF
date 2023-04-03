@@ -22,6 +22,7 @@ extension CGShading: CFType {}
 #if os(macOS)
 
 extension CGDisplayMode: CFType {}
+@available(macOS, introduced: 13.0, deprecated: 14.0, message: "There is no direct replacement for this function. Please use ScreenCaptureKit API's SCStreamOutputType instead")
 extension CGDisplayStream: CFType {}
 extension CGEvent: CFType {}
 extension CGEventSource: CFType {}
